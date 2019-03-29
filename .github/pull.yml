@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: hyperledger:master
+    mergeMethod: hardreset
+  - base: release-1.4
+    upstream: hyperledger:release-1.4
+    mergeMethod: hardreset
